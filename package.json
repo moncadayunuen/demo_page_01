@@ -1,0 +1,19 @@
+{
+  "name": "demo_pages",
+  "version": "1.0.0",
+  "description": "demo pages about htmls and css",
+  "main": "js/app.js",
+  "scripts": {
+    "browser": "browser-sync start --server --files \"./css/**/*.css, *.html, ./js/**/*.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "demo"
+  ],
+  "author": "yun",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
